@@ -36,7 +36,8 @@ class Teacher(person) :
         self.__teachercode=teachercode
 
     def showteacherinfo(self):
-        print(f'Teacher Code is :{self.__teachercode}') 
+        print(f'Teacher Code is :{self.__teachercode}')
+         
            
 
 

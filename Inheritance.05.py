@@ -10,7 +10,7 @@ class B(A) :
         A.__init__(self)
         print('ran init of B  class') 
 
-    def show(self):
+    def showB(self):
         print('BBBBB')   
 #.............................................................
 class C(B) :

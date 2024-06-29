@@ -1,11 +1,11 @@
-from abc import ABC
+from abc import ABC,abstractmethod
 
 class person(ABC) :
     
     def __init__(self, name, age):
         self.name = name
         self.age = age
-        
+
     @abstractmethod   
     def showinfo(self) :
         pass   
